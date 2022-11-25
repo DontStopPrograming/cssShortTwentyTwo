@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: sans-serif;
+    margin: 0;
+    color: #888;
+    background: #2b2c2d;
+    text-align: center;
+}
+
+.device {
+    width: 80%;
+    height: 300px;
+    background-color: #111;
+    position: relative;
+    text-align: center;
+    line-height: 40px;
+    margin: 20px auto;
+    border: 1px solid #555;
+}
+
+.box {
+    position: absolute;
+    color: #ccc;
+}
+
+.one {
+    background: #6fb936;
+    width: 150px;
+    height: 150px;
+}
+
+.two {
+    background: #f38630;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+}
+
+.three {
+    background: #338;
+    width: 100px;
+    height: 100px;
+}
+
+.triangle {
+    position: absolute;
+    z-index: 2;
+    width: 0;
+    height: 0;
+    border-right: 100px solid transparent;
+    border-top: 100px solid transparent;
+    border-left: 100px solid transparent;
+    border-bottom: 100px solid #f0ad4e;
+}
