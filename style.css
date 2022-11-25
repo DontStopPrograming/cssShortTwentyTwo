@@ -57,3 +57,13 @@ html, body {
     border-left: 100px solid transparent;
     border-bottom: 100px solid #f0ad4e;
 }
+
+.triangleTwo {
+    position: absolute;
+    z-index: 3;
+    width: 0; 
+     height: 0; 
+     border-left: 100px solid #f0ad4e;
+     border-top: 50px solid transparent;
+     border-bottom: 50px solid transparent; 
+}
